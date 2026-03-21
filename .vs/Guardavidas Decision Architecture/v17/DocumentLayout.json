@@ -1,0 +1,298 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\uibuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uibuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\simulationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\simulationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\swimmer\\swimmermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swimmer\\swimmermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\swimmer\\swimmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swimmer\\swimmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|c:\\users\\leonl\\guardavidas decision architecture\\assets\\scripts\\difficultymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\difficultymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|c:\\users\\leonl\\guardavidas decision architecture\\assets\\scripts\\simulationevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\simulationevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\rescuemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rescuemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\swimmer\\swimmerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swimmer\\swimmerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\spawncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\swimmer\\swimmeronland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swimmer\\swimmeronland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\fsm\\fsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fsm\\fsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\lifeguard\\lifeguard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lifeguard\\lifeguard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\lifeguard\\lifeguardstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lifeguard\\lifeguardstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\simulationstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\simulationstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DifficultyManager.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\DifficultyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DifficultyManager.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\DifficultyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DifficultyManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T19:15:43.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Swimmer.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\Swimmer\\Swimmer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Swimmer\\Swimmer.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\Swimmer\\Swimmer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Swimmer\\Swimmer.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T02:11:39.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SwimmerStateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\Swimmer\\SwimmerStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Swimmer\\SwimmerStateMachine.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\Swimmer\\SwimmerStateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Swimmer\\SwimmerStateMachine.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAywJkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T02:03:03.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SwimmerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\Swimmer\\SwimmerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Swimmer\\SwimmerMovement.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\Swimmer\\SwimmerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Swimmer\\SwimmerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T20:41:38.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SwimmerOnLand.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\Swimmer\\SwimmerOnLand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Swimmer\\SwimmerOnLand.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\Swimmer\\SwimmerOnLand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Swimmer\\SwimmerOnLand.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswLcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T04:23:06.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Lifeguard.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\Lifeguard\\Lifeguard.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lifeguard\\Lifeguard.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\Lifeguard\\Lifeguard.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lifeguard\\Lifeguard.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAQwGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T20:55:45.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LifeguardStateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\Lifeguard\\LifeguardStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lifeguard\\LifeguardStateMachine.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\Lifeguard\\LifeguardStateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lifeguard\\LifeguardStateMachine.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAQwGkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T20:55:43.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimulationConfig.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\SimulationConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SimulationConfig.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\SimulationConfig.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SimulationConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T21:37:22.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\UIBuilder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIBuilder.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\UIBuilder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T04:25:42.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RescueManager.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\RescueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RescueManager.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\RescueManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RescueManager.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAswM4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T01:08:32.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SimulationEvents.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\SimulationEvents.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SimulationEvents.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\SimulationEvents.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SimulationEvents.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T21:37:46.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SimulationStats.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\SimulationStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SimulationStats.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\SimulationStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SimulationStats.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T21:37:56.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T21:38:06.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SpawnController.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\SpawnController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnController.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\SpawnController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T22:02:53.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FSM.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\FSM\\FSM.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FSM\\FSM.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\FSM\\FSM.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FSM\\FSM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T22:03:25.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T22:04:04.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ObjectPool.cs",
+              "DocumentMoniker": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\ObjectPool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectPool.cs",
+              "ToolTip": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\Assets\\Scripts\\ObjectPool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectPool.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T21:37:31.649Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1773941807884338, "dur":1107, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941807885452, "dur":42, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1773941807885504, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1773941807885516, "dur":324, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1773941807885860, "dur":594, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941807886454, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660318, "dur":257, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660575, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660586, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660589, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660597, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660599, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660604, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660606, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660617, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660618, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660626, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660628, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660634, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660636, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660642, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660644, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660649, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660650, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660659, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660660, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660667, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660669, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660677, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660679, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660685, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660708, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809660740, "dur":1906, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1773941807886193, "dur":266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941807886460, "dur":4172, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941807890641, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1773941807890647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941807891656, "dur":389, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1773941807892048, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1773941807892092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941807892361, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1773941807894479, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1773941807895492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941807896504, "dur":19834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1773941807916352, "dur":21156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1773941807937513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941807937520, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1773941807938290, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1773941807938734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941807938739, "dur":6135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1773941807944887, "dur":46310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773941807991200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941807991431, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773941807992230, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1773941807992253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941807992477, "dur":155436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1773941808147936, "dur":69630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773941808217570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941808217578, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773941808218971, "dur":60315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773941808279293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941808279304, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773941808280827, "dur":310841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773941808591674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941808591684, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773941808594436, "dur":344887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773941808939326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773941808939333, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773941808941803, "dur":718521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941807886244, "dur":228, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941807886473, "dur":4161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941807890642, "dur":2560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1773941807893205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941807896863, "dur":93228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1773941807990109, "dur":30789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture.exe" }}
+,{ "pid":12345, "tid":2, "ts":1773941808020903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808020909, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture.exe" }}
+,{ "pid":12345, "tid":2, "ts":1773941808021961, "dur":3447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808025425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808025800, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808026668, "dur":3101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808029771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808029826, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808030753, "dur":3432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808034188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808034194, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808035302, "dur":3408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808038714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808038720, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808039616, "dur":4021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808043639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808043644, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808044571, "dur":4478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808049053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808049063, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808050138, "dur":3937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808054078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808054084, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808055079, "dur":3187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808058291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808058296, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808059265, "dur":3934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808063202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808063208, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808064391, "dur":3666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808068061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808068068, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808069398, "dur":4009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808073411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808073418, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808074959, "dur":3722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808078685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808078692, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808079730, "dur":4588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808084323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808084330, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808086884, "dur":4372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808091259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808091264, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808092644, "dur":3987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808096635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808096662, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808098356, "dur":6492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808104852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808104858, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808106598, "dur":3901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808110503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808110510, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808112556, "dur":3874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808116434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808116440, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808117947, "dur":4206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808122157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808122163, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808123484, "dur":161700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808285188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808285195, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808286522, "dur":128294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808414822, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808414833, "dur":4596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808419530, "dur":439631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808859165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773941808859180, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773941808860355, "dur":799973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773941807886219, "dur":245, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773941807886464, "dur":4172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773941807890641, "dur":2439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1773941807893101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773941807895934, "dur":35727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1773941807931677, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1773941807931703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773941807931709, "dur":7066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1773941807938789, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1773941807938810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773941807938813, "dur":34938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1773941807973771, "dur":1679077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773941809652853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773941809652859, "dur":7400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773941809660283, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1773941809660286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941807886237, "dur":231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941807886469, "dur":4168, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941807890642, "dur":2523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1773941807893169, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941807895786, "dur":137239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1773941808033042, "dur":3929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808036974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941808036979, "dur":750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808037771, "dur":3548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808041324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941808041332, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808042450, "dur":4001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808046455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941808046461, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808048910, "dur":3860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808052773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941808052779, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808053879, "dur":3794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808057676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941808057681, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808058976, "dur":3532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808062512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941808062518, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808063740, "dur":209412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808273156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941808273164, "dur":16533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808289756, "dur":115686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808405448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941808405524, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808407179, "dur":45980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808453165, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941808453176, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808454493, "dur":66041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808520541, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941808520551, "dur":5403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808526008, "dur":92970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808618985, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941808618996, "dur":29085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808648133, "dur":291064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808939203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773941808939213, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773941808940682, "dur":719633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941807886266, "dur":210, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941807886476, "dur":4161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941807890642, "dur":179651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1773941808070296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808070455, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1773941808071624, "dur":3910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808075538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808075544, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808076601, "dur":3822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808080427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808080433, "dur":4190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808084679, "dur":4320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808089002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808089009, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808090984, "dur":4620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808095608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808095626, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808096849, "dur":4026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808100879, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808100885, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808103599, "dur":4070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808107690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808107697, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808108716, "dur":4180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808112900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808112906, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808114358, "dur":4131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808118492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808118499, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808120271, "dur":4790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808125065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808125071, "dur":2878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808128000, "dur":144198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808272205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808272215, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808274538, "dur":88213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808362757, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808362768, "dur":2716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808365537, "dur":143867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808509410, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808509422, "dur":13352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808522833, "dur":177735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808700597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773941808700604, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773941808701772, "dur":958541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773941807886292, "dur":187, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773941807886480, "dur":4174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773941807890655, "dur":2586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1773941807893244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773941807895978, "dur":251361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1773941808147370, "dur":10323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773941808157700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773941808157710, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773941808159351, "dur":8138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773941808167495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773941808167506, "dur":33321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773941808200886, "dur":106551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773941808307443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773941808307454, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773941808308658, "dur":152423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773941808461087, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773941808461099, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773941808462616, "dur":287243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773941808749874, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773941808749901, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773941808752489, "dur":907829, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941807886312, "dur":171, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941807886484, "dur":4156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941807890643, "dur":142728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1773941808033374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808033460, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1773941808034437, "dur":3593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808038032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808038037, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808039088, "dur":3383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808042474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808042481, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808043502, "dur":3423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808046929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808046934, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808049093, "dur":3209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808052305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808052311, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808053436, "dur":3540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808056978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808056983, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808058018, "dur":4379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808062402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808062409, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808063453, "dur":7898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808071355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808071362, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808073285, "dur":4731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808078020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808078092, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808079360, "dur":3827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808083192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808083200, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808085387, "dur":3962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808089353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808089361, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808091842, "dur":4674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808096520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808096525, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808098350, "dur":3973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808102327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808102339, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808104409, "dur":3899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808108310, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808108318, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808109677, "dur":10369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808120049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808120075, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808121544, "dur":82950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808204499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808204509, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808207867, "dur":8770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808216645, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808216662, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808218055, "dur":1721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808219780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808219788, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808221946, "dur":1813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808223763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808223771, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808224940, "dur":59086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808284032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808284042, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808285339, "dur":224223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808509566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808509573, "dur":15875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808525504, "dur":160689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808686201, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808686214, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773941808688740, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1773941808688796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808688802, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1773941808692611, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1773941808692666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808692670, "dur":3858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1773941808696589, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1773941808696648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773941808696655, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1773941808699756, "dur":960556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941807886334, "dur":153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941807886487, "dur":4148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941807890641, "dur":179544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1773941808070188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808070460, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1773941808071704, "dur":4462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808076170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808076177, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808077453, "dur":3815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808081271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808081277, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808085178, "dur":4195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808089377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808089383, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808091803, "dur":4382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808096189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808096196, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808097915, "dur":3946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808101864, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808101871, "dur":2851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808104783, "dur":7199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808111986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808111992, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808113921, "dur":3935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808117860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808117866, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808119544, "dur":4131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808123678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808123684, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808125936, "dur":132933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808258873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808258880, "dur":15772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808274705, "dur":145299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808420008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808420017, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808421365, "dur":256158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808677526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808677532, "dur":14117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773941808691708, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1773941808691770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808691809, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1773941808696590, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1773941808696663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773941808696668, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1773941808699732, "dur":960579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773941807886355, "dur":134, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773941807886489, "dur":4149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773941807890642, "dur":2384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1773941807893029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773941807896693, "dur":25826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1773941807922549, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1773941807922595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773941807922690, "dur":24707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1773941807947412, "dur":803692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773941808751108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773941808751177, "dur":4392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773941808755593, "dur":904723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941807886378, "dur":114, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941807886492, "dur":4141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941807890642, "dur":214029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1773941808104674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808105073, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1773941808106587, "dur":4582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808111173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808111180, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808113295, "dur":3820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808117118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808117124, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808118284, "dur":4780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808123072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808123079, "dur":2273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808125417, "dur":119739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808245164, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808245175, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808246597, "dur":3524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808250127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808250166, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808251438, "dur":169142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808420583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808420610, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808422829, "dur":245318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808668154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808668165, "dur":3640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773941808671863, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1773941808672056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808672423, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1773941808673827, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1773941808673905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808673986, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1773941808675213, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1773941808675261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808675266, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1773941808676245, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1773941808676401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808676406, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1773941808677434, "dur":12401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1773941808689839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808689847, "dur":9584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1773941808699479, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1773941808699632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773941808699638, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1773941808700651, "dur":959663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773941807886400, "dur":96, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773941807886496, "dur":4155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773941807890651, "dur":234739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1773941808125393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773941808125409, "dur":3440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1773941808128873, "dur":1114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773941808129991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773941808129998, "dur":3328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773941808133383, "dur":124925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773941808258316, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773941808258333, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773941808260135, "dur":429435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773941808689574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773941808689582, "dur":9167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773941808698828, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1773941808698887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773941808698893, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1773941808700465, "dur":959863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941807886412, "dur":86, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941807886499, "dur":4145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941807890645, "dur":2623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1773941807893271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941807896005, "dur":28052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1773941807924074, "dur":50053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1773941807974130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941807974139, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1773941807975289, "dur":98122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1773941808073414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808073419, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1773941808075016, "dur":4610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808079630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808079635, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808080587, "dur":3794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808084385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808084391, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808086623, "dur":3920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808090547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808090553, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808092257, "dur":4118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808096379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808096385, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808097957, "dur":3931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808101891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808101897, "dur":2210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808104162, "dur":3994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808108160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808108166, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808109548, "dur":3931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808113484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808113514, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808114872, "dur":3745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808118620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808118626, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808120458, "dur":6307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808126769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808126775, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808128552, "dur":343565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808472123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808472134, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808473575, "dur":175802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808649381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808649389, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808650494, "dur":201717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808852217, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773941808852228, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leonl/Downloads/Guardavidas Decision Architecture_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773941808853467, "dur":806853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773941809663807, "dur":1345, "ph":"X", "name": "ProfilerWriteOutput" }
+,

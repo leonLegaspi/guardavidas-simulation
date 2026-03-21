@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb39a486406ef524fa0f8b650faccb0d, type: 3}
+  m_Name: SimulationConfig
+  m_EditorClassIdentifier: 
+  swimmerCount: 20
+  swimmerTypes:
+  - type: 0
+    label: Nino
+    spawnWeight: 2
+    speed: 7
+    energyLossMin: 4
+    energyLossMax: 7
+    exhaustThreshold: 60
+    drowningTime: 8
+    color: {r: 1, g: 0.6, b: 0.2, a: 1}
+  - type: 1
+    label: Adulto
+    spawnWeight: 5
+    speed: 12
+    energyLossMin: 2
+    energyLossMax: 5
+    exhaustThreshold: 50
+    drowningTime: 12
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 2
+    label: Atleta
+    spawnWeight: 3
+    speed: 15
+    energyLossMin: 0.8
+    energyLossMax: 2
+    exhaustThreshold: 30
+    drowningTime: 18
+    color: {r: 0.4, g: 0.9, b: 0.4, a: 1}
+  swimmerWanderInterval: 3
+  swimmerInitialEnergy: 100
+  borderDetectDist: 2.5
+  borderSteerForce: 4
+  separationRadius: 1.5
+  separationForce: 3
+  landWalkSpeed: 10
+  landDirectionChangeTime: 4
+  landWaterAvoidDistance: 1.5
+  lifeguardSpeed: 30
+  lifeguardRescueDistance: 1.5
+  difficultyInterval: 30
+  difficultySwimmerStep: 3
+  difficultyEnergyMult: 1.15
+  maxDifficultyLevel: 5
