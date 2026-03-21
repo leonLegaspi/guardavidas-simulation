@@ -1066,7 +1066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stats: {fileID: 382177428}
   spawnController: {fileID: 382177429}
-  difficultyManager: {fileID: 0}
+  difficultyManager: {fileID: 1642855497}
 --- !u!4 &1024948919
 Transform:
   m_ObjectHideFlags: 0
@@ -1081,6 +1081,72 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1029976863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1029976866}
+  - component: {fileID: 1029976865}
+  - component: {fileID: 1029976864}
+  m_Layer: 0
+  m_Name: ExperimentSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1029976864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029976863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79d308134c932884db9ab96f917134a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rescueManager: {fileID: 382177427}
+  stats: {fileID: 382177428}
+  experimentConfig: {fileID: 11400000, guid: 095c13a6819c78e4b8a57d6fe4c8d953, type: 2}
+--- !u!114 &1029976865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029976863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d658e26ab47644f8ee16c6a9b8f8ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rescueManager: {fileID: 382177427}
+  stats: {fileID: 382177428}
+  dataLogger: {fileID: 1029976864}
+  spawnController: {fileID: 382177429}
+  experimentConfig: {fileID: 11400000, guid: 095c13a6819c78e4b8a57d6fe4c8d953, type: 2}
+  autoStart: 0
+--- !u!4 &1029976866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029976863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1114742509
 GameObject:

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea39b97f9a558894a94e226283f53f9b, type: 3}
+  m_Name: ExperimentConfig
+  m_EditorClassIdentifier: 
+  baseSeed: 42
+  runsPerScenario: 10
+  maxRunDuration: 60
+  fastForwardScale: 20
+  scenarios:
+  - name: Baja
+    swimmerCount: 10
+    spawnInterval: 8
+  - name: Media
+    swimmerCount: 20
+    spawnInterval: 5
+  - name: Alta
+    swimmerCount: 35
+    spawnInterval: 3
+  - name: Extrema
+    swimmerCount: 50
+    spawnInterval: 2
+  runBothModes: 1
+  outputFolder: ExperimentResults

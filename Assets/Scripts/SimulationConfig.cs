@@ -25,7 +25,7 @@ public class SimulationConfig : ScriptableObject
             energyLossMax    = 7f,
             exhaustThreshold = 60f,
             drowningTime     = 8f,
-            color            = new Color(1f, 0.6f, 0.2f)   // naranja
+            color            = new Color(1f, 0.6f, 0.2f)
         },
         new SwimmerTypeConfig
         {
@@ -49,7 +49,7 @@ public class SimulationConfig : ScriptableObject
             energyLossMax    = 2f,
             exhaustThreshold = 30f,
             drowningTime     = 18f,
-            color            = new Color(0.4f, 0.9f, 0.4f)  // verde
+            color            = new Color(0.4f, 0.9f, 0.4f)
         }
     };
 
@@ -71,34 +71,26 @@ public class SimulationConfig : ScriptableObject
     public float lifeguardRescueDistance = 1.5f;
 
     [Header("Dificultad progresiva")]
-    [Tooltip("Segundos entre cada aumento de dificultad")]
     public float difficultyInterval = 30f;
-
-    [Tooltip("Nadadores extra que se agregan por nivel")]
     public int difficultySwimmerStep = 3;
-
-    [Tooltip("Multiplicador de perdida de energia por nivel")]
     public float difficultyEnergyMult = 1.15f;
-
-    [Tooltip("Nivel maximo de dificultad")]
     public int maxDifficultyLevel = 5;
+
+    // ── Modo de decision A/B ───────────────────────────────────
+
+    [Header("Modo de decision (A/B Testing)")]
+    [Tooltip("Prioritized = por urgencia (tiempo de vida restante)\nNearest = por distancia solamente")]
+    public DecisionMode decisionMode = DecisionMode.Prioritized;
 
     // ── Utilidades ─────────────────────────────────────────────
 
-    /// <summary>
-    /// Devuelve la config de un tipo especifico.
-    /// </summary>
     public SwimmerTypeConfig GetConfig(SwimmerType type)
     {
         foreach (var cfg in swimmerTypes)
             if (cfg.type == type) return cfg;
-
-        return swimmerTypes[1]; // fallback: Adult
+        return swimmerTypes[1];
     }
 
-    /// <summary>
-    /// Elige un tipo aleatorio respetando los pesos de spawn.
-    /// </summary>
     public SwimmerType GetRandomType()
     {
         int total = 0;
@@ -118,27 +110,24 @@ public class SimulationConfig : ScriptableObject
     }
 }
 
-// ── Tipos de nadador ───────────────────────────────────────────
+// ── Enums ──────────────────────────────────────────────────────
 
-public enum SwimmerType
-{
-    Child,
-    Adult,
-    Athlete
-}
+public enum SwimmerType { Child, Adult, Athlete }
 
 /// <summary>
-/// Datos de configuracion para cada tipo de nadador.
+/// Modo A: Prioritized — rescata al nadador con menos tiempo de vida.
+/// Modo B: Nearest     — rescata al nadador mas cercano (baseline).
 /// </summary>
+public enum DecisionMode { Prioritized, Nearest }
+
 [Serializable]
 public class SwimmerTypeConfig
 {
     public SwimmerType type;
     public string label;
 
-    [Tooltip("Peso de aparicion relativo (mayor = aparece mas seguido)")]
+    [Tooltip("Peso de aparicion relativo")]
     public int spawnWeight;
-
     public float speed;
     public float energyLossMin;
     public float energyLossMax;

@@ -63,6 +63,8 @@
     <Compile Include="Assets\Scripts\SpawnController.cs" />
     <Compile Include="Assets\Scripts\BeachArea.cs" />
     <Compile Include="Assets\Scripts\SimulationConfig.cs" />
+    <Compile Include="Assets\Scripts\ExperimentConfig.cs" />
+    <Compile Include="Assets\Scripts\DataLogger.cs" />
     <Compile Include="Assets\Scripts\SimulationStats.cs" />
     <Compile Include="Assets\Scripts\Swimmer\SwimmerStateMachine.cs" />
     <Compile Include="Assets\Scripts\RiverArea.cs" />
@@ -75,6 +77,7 @@
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\UIBuilder.cs" />
     <Compile Include="Assets\Scripts\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\ExperimentRunner.cs" />
     <Compile Include="Assets\Scripts\Lifeguard\Lifeguard.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
   </ItemGroup>

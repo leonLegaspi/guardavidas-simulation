@@ -44,6 +44,8 @@ public class Lifeguard : MonoBehaviour
 
     public void CompleteRescue(Swimmer swimmer)
     {
+        // Registrar tiempo de rescate para metricas del experimento
+        manager.RegisterRescueComplete(swimmer);
         SimulationEvents.RescueCompleted(this, swimmer);
     }
 
@@ -82,11 +84,9 @@ public class Lifeguard : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        // Radio de rescate en verde
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, rescueDistance);
 
-        // Linea hacia el target en rojo si esta ocupado
         if (targetSwimmer != null)
         {
             Gizmos.color = Color.red;
@@ -94,7 +94,6 @@ public class Lifeguard : MonoBehaviour
             Gizmos.DrawSphere(targetSwimmer.transform.position, 0.3f);
         }
 
-        // Linea hacia la torre en gris
         Gizmos.color = new Color(1f, 1f, 1f, 0.3f);
         Gizmos.DrawLine(transform.position, towerPos);
     }

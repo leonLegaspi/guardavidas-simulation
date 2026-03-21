@@ -44,4 +44,17 @@ public class SimulationStats : MonoBehaviour
     void HandleDied(Swimmer _) => Died++;
     void HandleRescueStarted(Lifeguard _, Swimmer __) => ActiveRescues++;
     void HandleRescueCompleted(Lifeguard _, Swimmer __) => ActiveRescues = Mathf.Max(0, ActiveRescues - 1);
+
+    // ── Reset (para ExperimentRunner) ─────────────────────────
+
+    /// <summary>
+    /// Reinicia todas las estadisticas para una nueva run del experimento.
+    /// </summary>
+    public void Reset()
+    {
+        Rescued = 0;
+        Died = 0;
+        ActiveRescues = 0;
+        ElapsedTime = 0f;
+    }
 }

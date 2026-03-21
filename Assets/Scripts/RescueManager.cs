@@ -23,19 +23,20 @@ public class RescueManager : MonoBehaviour
     // ── Listas y pool ──────────────────────────────────────────
     private List<Lifeguard> lifeguards = new();
     private List<Swimmer> swimmers = new();
-
-    /// <summary>
-    /// Cola de rescates ordenada por urgencia (menos tiempo de vida = mas urgente).
-    /// </summary>
     private List<Swimmer> rescueQueue = new();
-
     private ObjectPool<Swimmer> swimmerPool;
 
     // ── Dificultad ─────────────────────────────────────────────
     private float difficultyEnergyMultiplier = 1f;
 
+    // ── Metricas ───────────────────────────────────────────────
+    private float totalRescueTime = 0f;
+    private int rescueTimeCount = 0;
+    private Dictionary<Swimmer, float> rescueStartTimes = new();
+
     public int ActiveSwimmerCount => swimmers.Count;
     public float DifficultyEnergyMultiplier => difficultyEnergyMultiplier;
+    public float AverageRescueTime => rescueTimeCount > 0 ? totalRescueTime / rescueTimeCount : 0f;
 
     // ── Ciclo de vida ──────────────────────────────────────────
 
@@ -96,14 +97,44 @@ public class RescueManager : MonoBehaviour
         swimmers.Add(sw);
     }
 
-    // ── Cola de rescates con prioridad ─────────────────────────
+    // ── Reset completo de swimmers (para ExperimentRunner) ─────
 
     /// <summary>
-    /// Llamado por un nadador al ahogarse.
-    /// Intenta asignar un guardavidas libre; si no hay, encola por urgencia.
+    /// Devuelve todos los swimmers al pool y los respawnea desde cero.
+    /// Garantiza condiciones iniciales limpias para cada run.
     /// </summary>
+    public void ResetSwimmers()
+    {
+        // Devolver todos al pool
+        for (int i = swimmers.Count - 1; i >= 0; i--)
+        {
+            Swimmer sw = swimmers[i];
+            if (sw != null)
+                swimmerPool.Return(sw);
+        }
+
+        swimmers.Clear();
+        rescueQueue.Clear();
+        rescueStartTimes.Clear();
+
+        // Tambien resetear guardavidas a sus torres
+        foreach (Lifeguard lg in lifeguards)
+        {
+            lg.ClearTarget();
+            lg.transform.position = lg.GetTowerPosition();
+        }
+
+        // Respawnear cantidad correcta segun config actual
+        SpawnSwimmers();
+    }
+
+    // ── Cola de rescates con A/B ───────────────────────────────
+
     public void RequestRescue(Swimmer swimmer)
     {
+        if (!rescueStartTimes.ContainsKey(swimmer))
+            rescueStartTimes[swimmer] = Time.time;
+
         if (TryAssignLifeguard(swimmer)) return;
 
         if (!rescueQueue.Contains(swimmer))
@@ -113,23 +144,21 @@ public class RescueManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Cada frame: ordena la cola por urgencia y asigna guardavidas disponibles.
-    /// </summary>
     void ProcessRescueQueue()
     {
         if (rescueQueue.Count == 0) return;
 
-        // Limpiar nadadores que ya no necesitan rescate
         rescueQueue.RemoveAll(s => s == null || !s.IsDrowning());
-
         if (rescueQueue.Count == 0) return;
 
-        // Ordenar por tiempo de vida restante (mas urgente primero)
-        rescueQueue.Sort((a, b) =>
-            a.GetDrowningTimeLeft().CompareTo(b.GetDrowningTimeLeft()));
+        // Modo A: Prioritized — ordena por tiempo de vida restante
+        if (config.decisionMode == DecisionMode.Prioritized)
+        {
+            rescueQueue.Sort((a, b) =>
+                a.GetDrowningTimeLeft().CompareTo(b.GetDrowningTimeLeft()));
+        }
+        // Modo B: Nearest — sin reordenar, TryAssign elige por distancia
 
-        // Asignar guardavidas disponibles
         for (int i = rescueQueue.Count - 1; i >= 0; i--)
         {
             if (TryAssignLifeguard(rescueQueue[i]))
@@ -137,12 +166,9 @@ public class RescueManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Asigna el guardavidas libre MAS CERCANO al nadador.
-    /// </summary>
     bool TryAssignLifeguard(Swimmer swimmer)
     {
-        Lifeguard closest = null;
+        Lifeguard best = null;
         float minDist = Mathf.Infinity;
 
         foreach (Lifeguard lg in lifeguards)
@@ -153,25 +179,41 @@ public class RescueManager : MonoBehaviour
             if (dist < minDist)
             {
                 minDist = dist;
-                closest = lg;
+                best = lg;
             }
         }
 
-        if (closest == null) return false;
+        if (best == null) return false;
 
-        closest.AssignRescue(swimmer);
+        best.AssignRescue(swimmer);
         return true;
+    }
+
+    public void RegisterRescueComplete(Swimmer swimmer)
+    {
+        if (rescueStartTimes.TryGetValue(swimmer, out float startTime))
+        {
+            totalRescueTime += Time.time - startTime;
+            rescueTimeCount++;
+            rescueStartTimes.Remove(swimmer);
+        }
     }
 
     // ── Dificultad ─────────────────────────────────────────────
 
-    /// <summary>
-    /// Llamado por DifficultyManager para aumentar la dificultad.
-    /// </summary>
     public void ApplyDifficultyLevel(int level)
     {
         difficultyEnergyMultiplier = Mathf.Pow(config.difficultyEnergyMult, level);
-        Debug.Log($"[RescueManager] Dificultad nivel {level} — multiplicador energia: {difficultyEnergyMultiplier:0.00}x");
+        Debug.Log($"[RescueManager] Nivel {level} — multiplicador: {difficultyEnergyMultiplier:0.00}x");
+    }
+
+    // ── Reset de metricas ──────────────────────────────────────
+
+    public void ResetMetrics()
+    {
+        totalRescueTime = 0f;
+        rescueTimeCount = 0;
+        rescueStartTimes.Clear();
     }
 
     // ── Utilidades ─────────────────────────────────────────────
@@ -184,13 +226,8 @@ public class RescueManager : MonoBehaviour
         foreach (Swimmer sw in swimmers)
         {
             if (!sw.IsDrowning()) continue;
-
             float dist = Vector3.Distance(pos, sw.transform.position);
-            if (dist < minDist)
-            {
-                minDist = dist;
-                best = sw;
-            }
+            if (dist < minDist) { minDist = dist; best = sw; }
         }
 
         return best;
@@ -200,6 +237,7 @@ public class RescueManager : MonoBehaviour
     {
         swimmers.Remove(swimmer);
         rescueQueue.Remove(swimmer);
+        rescueStartTimes.Remove(swimmer);
         swimmerPool.Return(swimmer);
     }
 
