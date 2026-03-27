@@ -4,6 +4,7 @@ using System.Text;
 
 /// <summary>
 /// Exporta los resultados de cada run del experimento a un archivo CSV.
+/// Guarda en la carpeta de n8n para integracion automatica con el pipeline.
 /// Formato: run_id, seed, scenario, mode, success_rate, avg_rescue_time, rescued, deaths, duration
 /// </summary>
 public class DataLogger : MonoBehaviour
@@ -20,15 +21,18 @@ public class DataLogger : MonoBehaviour
 
     void Awake()
     {
-        string folder = Path.Combine(Application.persistentDataPath,
-                                     experimentConfig.outputFolder);
-        Directory.CreateDirectory(folder);
+        // Guardar directamente en la carpeta de n8n
+        string n8nFolder = Path.Combine(
+            System.Environment.GetFolderPath(System.Environment.SpecialFolder.UserProfile),
+            ".n8n-files"
+        );
 
-        // Nombre unico por sesion para no sobreescribir runs anteriores
+        Directory.CreateDirectory(n8nFolder);
+
         string timestamp = System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss");
-        filePath = Path.Combine(folder, $"experiment_{timestamp}.csv");
+        filePath = Path.Combine(n8nFolder, $"experiment_{timestamp}.csv");
 
-        Debug.Log($"[DataLogger] Resultados en: {filePath}");
+        Debug.Log($"[DataLogger] CSV en: {filePath}");
     }
 
     /// <summary>
@@ -38,7 +42,9 @@ public class DataLogger : MonoBehaviour
     {
         if (!headerWritten)
         {
-            WriteHeader();
+            File.WriteAllText(filePath,
+                "run_id,seed,scenario,mode,success_rate,avg_rescue_time,rescued,deaths,duration\n",
+                Encoding.UTF8);
             headerWritten = true;
         }
 
@@ -49,15 +55,9 @@ public class DataLogger : MonoBehaviour
         float avgTime = rescueManager.AverageRescueTime;
 
         string line = string.Format("{0},{1},{2},{3},{4:0.00},{5:0.00},{6},{7},{8:0.00}",
-            runId,
-            seed,
-            scenario,
-            mode,
-            successRate,
-            avgTime,
-            rescued,
-            deaths,
-            duration
+            runId, seed, scenario, mode,
+            successRate, avgTime,
+            rescued, deaths, duration
         );
 
         File.AppendAllText(filePath, line + "\n", Encoding.UTF8);
@@ -67,14 +67,5 @@ public class DataLogger : MonoBehaviour
                   $"Rescatados: {rescued} | Muertes: {deaths}");
     }
 
-    void WriteHeader()
-    {
-        string header = "run_id,seed,scenario,mode,success_rate,avg_rescue_time,rescued,deaths,duration\n";
-        File.WriteAllText(filePath, header, Encoding.UTF8);
-    }
-
-    /// <summary>
-    /// Devuelve la ruta del archivo CSV actual.
-    /// </summary>
     public string GetFilePath() => filePath;
 }

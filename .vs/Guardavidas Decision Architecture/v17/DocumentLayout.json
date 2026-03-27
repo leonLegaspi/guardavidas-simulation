@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\leonl\\Guardavidas Decision Architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\lifeguard\\lifeguard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|c:\\users\\leonl\\guardavidas decision architecture\\assets\\scripts\\lifeguard\\lifeguard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lifeguard\\lifeguard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|c:\\users\\leonl\\guardavidas decision architecture\\assets\\scripts\\experimentrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\experimentrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\experimentrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,11 +19,11 @@
       "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\experimentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|c:\\users\\leonl\\guardavidas decision architecture\\assets\\scripts\\datalogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\datalogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datalogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|c:\\users\\leonl\\guardavidas decision architecture\\assets\\scripts\\simulationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|C:\\Users\\leonl\\Guardavidas Decision Architecture\\assets\\scripts\\simulationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8AE3F37-3F80-3D1D-690B-5724A56BF934}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\simulationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -62,8 +62,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SimulationConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T06:16:20.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T06:16:20.358Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "Assets\\Scripts\\DataLogger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T06:16:01.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T06:16:01.377Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ExperimentRunner.cs",
               "ViewState": "AgIAAJQAAAAAAAAAAAA0wAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T06:15:13.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T06:15:13.283Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ExperimentConfig.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T06:13:02.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T06:13:02.834Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "Assets\\Scripts\\RescueManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAPQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T01:08:32.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T01:08:32.689Z"
             },
             {
               "$type": "Document",
@@ -164,8 +159,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SimulationStats.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T21:37:56.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T21:37:56.504Z"
             },
             {
               "$type": "Document",
